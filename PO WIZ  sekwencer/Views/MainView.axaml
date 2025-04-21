@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:PO_WIZ__sekwencer.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="PO_WIZ__sekwencer.Views.MainView"
+             x:DataType="vm:MainViewModel">
+	<Design.DataContext>
+		<vm:MainViewModel />
+	</Design.DataContext>
+
+	<StackPanel Margin="20" Spacing="15" HorizontalAlignment="Center" VerticalAlignment="Center">
+		<TextBlock Text="Sekwencer" FontSize="24" HorizontalAlignment="Center" />
+
+		<TextBox Name="tb" Width="400" Height="30" HorizontalAlignment="Center" />
+
+		<Button Content="OK" Width="120" Height="35" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Click="Button_Click"/>
+
+		<ScrollViewer Width="400" Height="200" HorizontalAlignment="Center">
+			<TextBox x:Name="OutputBox"
+					 IsReadOnly="True"
+					 TextWrapping="Wrap"
+					 AcceptsReturn="True"
+					 BorderThickness="0" />
+		</ScrollViewer>
+
+	</StackPanel>
+</UserControl>

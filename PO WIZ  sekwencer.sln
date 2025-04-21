@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PO WIZ  sekwencer", "PO WIZ  sekwencer\PO WIZ  sekwencer.csproj", "{82EBBA38-0F15-5EBE-406D-41EAC961891B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PO WIZ  sekwencer.Desktop", "PO WIZ  sekwencer.Desktop\PO WIZ  sekwencer.Desktop.csproj", "{3A283DA7-8440-DA14-D3F7-C865987A623A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82EBBA38-0F15-5EBE-406D-41EAC961891B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EBBA38-0F15-5EBE-406D-41EAC961891B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EBBA38-0F15-5EBE-406D-41EAC961891B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EBBA38-0F15-5EBE-406D-41EAC961891B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A283DA7-8440-DA14-D3F7-C865987A623A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A283DA7-8440-DA14-D3F7-C865987A623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A283DA7-8440-DA14-D3F7-C865987A623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A283DA7-8440-DA14-D3F7-C865987A623A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B84E81-E55B-4D18-8C2F-030A63FF990C}
+	EndGlobalSection
+EndGlobal
